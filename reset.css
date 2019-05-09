@@ -1,0 +1,35 @@
+/*
+Created By m0dfixG
+And Using google fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+*{
+  background: #FFFFFF;
+  border: 0;
+  box-sizing: border-box;
+  color: #000000;
+  display: block;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  list-style-type: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+}
+
+*::selection{
+  background: #00A0FF;
+  color: #FFFFFF;
+}
+
+*::placeholder{
+  color: #808080;
+}
